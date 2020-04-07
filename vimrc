@@ -2,6 +2,65 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+if version >= 703
+    set colorcolumn=80
+endif
+
+if version >= 800
+    set tags=./tags;,tags
+    " ============ Plugins ===========
+    call plug#begin('~/.vim/plugged')
+    " runtime-ctag
+    Plug 'ludovicchabant/vim-gutentags'
+    " runtime-linting
+    Plug 'dense-analysis/ale'
+    call plug#end()
+    " ============ Plugins ===========
+endif
+
+
+" ================ Plugin Specific Config ====================
+
+" Gutentags is a plugin that takes care of the much needed
+" management of tags files in Vim. It will (re)generate tag files as you work
+" while staying completely out of your way. It will even do its best to keep
+" those tag files out of your way too. It has no dependencies and just works.
+" gutentags stop at project root
+let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project', '.XR_WSROOT']
+" generate tags file
+let g:gutentags_ctags_tagfile = 'tags'
+
+let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']
+let g:gutentags_ctags_extra_args += ['--c++-kinds=+px']
+let g:gutentags_ctags_extra_args += ['--c-kinds=+px']
+
+" ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax
+" checking and semantic errors) in NeoVim 0.2.0+ and Vim 8 while you edit your
+" text files, and acts as a Vim Language Server Protocol client.
+let g:ale_linters_explicit = 1
+let g:ale_completion_delay = 500
+let g:ale_echo_delay = 20
+let g:ale_lint_delay = 500
+let g:ale_echo_msg_format = '[%linter%] %code: %%s'
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_lint_on_insert_leave = 1
+let g:airline#extensions#ale#enabled = 1
+
+let g:ale_c_gcc_options = '-Wall -O2 -std=c99'
+let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++14'
+let g:ale_c_cppcheck_options = ''
+let g:ale_cpp_cppcheck_options = ''
+
+let g:ale_sign_error = "\ue009\ue009"
+hi! clear SpellBad
+hi! clear SpellCap
+hi! clear SpellRare
+hi! SpellBad gui=undercurl guisp=red
+hi! SpellCap gui=undercurl guisp=blue
+hi! SpellRare gui=undercurl guisp=magenta
+
+
+
 " ================ General Config ====================
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
