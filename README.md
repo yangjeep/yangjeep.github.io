@@ -27,3 +27,5 @@ More detail could be found at: **[Our hiring website](http://ottcisco.ca)**
 
 ## Useful Stuff
 There are couple tools I recently crave/love. 
+- [todo.txt-cli](https://github.com/todotxt/todo.txt-cli) is a handy CLI based GTD todolist, perfectly align with KISS (keep it simple stupid), worth trying. 
+- [vim-plug](https://github.com/junegunn/vim-plug): an effective & efficient vim plugin manager, simply add a section in your vimrc and you will get all your plugin managed. 
