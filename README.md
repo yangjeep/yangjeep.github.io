@@ -1,6 +1,12 @@
-# Welcome to yangjeep's GitHub Pages
-This repo stores my own config files for vim, shell, and tmux (so far) 
+# Welcome to my world
 
-I'm using this currently as my technical blog. Most of them are NOT my original creation but pointers of interesting technical discusisons, or topics. 
+> Things worth mentioning and capturing will be kept here:
 
+# Table of Contents
+[News I want to share](#News-I-want-to-share)
+[Recent Reading](#Recent-Reading)
+[Useful stuff](#Useful-stuff)
 
+## News I want to share
+## Recent Reading
+## Useful Stuff
