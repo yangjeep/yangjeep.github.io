@@ -1,5 +1,6 @@
 theme: jekyll-theme-hacker
 google_analytics: UA-163222683-1
+layout: post
 
 lsi: false
 safe: true
