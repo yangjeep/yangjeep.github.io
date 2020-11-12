@@ -4,6 +4,7 @@
 
 ## Table of Contents
 [News I want to share](#News-I-want-to-share) <br>
+[Toys I'm playing with lately](#Toys-I'm-playing-with-lately) <br>
 [Recent Reading](#Recent-Reading) <br>
 [Useful stuff](#Useful-stuff)
 
@@ -19,11 +20,13 @@ For the most part, I'm looking for developers who has
 Or, simply, **if you are a recent grad, show me your potential, learning skills, you get a chance!**
 More detail could be found at: **[Our hiring website](http://ottcisco.ca)**
 
+## Toys I'm playing with lately
+- Airtable: just getting started... not sure how it goes yet...
+
 ## Recent Reading
 - About coding/engineering best practices at Google, or maybe in the future, my team.
     - [Google Engineering Practices on code-review](https://github.com/google/eng-practices)
     - [Medium: The best code review feedback I've ever received](https://medium.com/better-programming/the-best-code-review-feedback-i-ever-received-43313a503517)
-
 
 ## Useful Stuff
 There are couple tools I recently crave/love. 
