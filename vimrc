@@ -14,6 +14,8 @@ if version >= 800
     Plug 'ludovicchabant/vim-gutentags'
     " runtime-linting
     Plug 'dense-analysis/ale'
+    " todo.txt support
+    Plug 'https://github.com/freitass/todo.txt-vim.git'
     call plug#end()
     " ============ Plugins ===========
 endif

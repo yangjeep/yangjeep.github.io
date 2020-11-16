@@ -71,6 +71,8 @@ alias   tmux='/ws/jiajyang-ott/util/tmux/tmux'
 alias pycharm='/ws/jiajyang-ott/pycharm-community-latest/bin/pycharm.sh'
 alias vscode='/ws/jiajyang-ott/util/VSCode-linux-x64/code'
 
+alias todo='/ws/jiajyang-ott/util/todo.txt-cli/todo.sh'
+
 alias ls='ls $LS_OPTIONS'
 ## Scopes
 alias   mkctags='ctags $(find . -name \*.[ch]);'
@@ -149,3 +151,16 @@ alias vi='vim'
 # TFTP
 alias tftp-ott='cd /auto/tftpboot-ottawa/jiajyang'
 alias tftp-sjc='cd /auto/tftp-sjc-users2/jiajyang'
+
+# Container PODMAN
+alias buildah="sudo /ecs/utils/container/bin/subuildah"
+alias podman="sudo /ecs/utils/container/bin/supodman"
+alias docker="sudo /ecs/utils/container/bin/supodman"
+
+# git
+alias gitlog="git log --branches --not --remotes --decorate --oneline"
+
+# smartdev
+alias sparse="/auto/smartdev/bin/sparse"
+
+
