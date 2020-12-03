@@ -1,1 +1,4 @@
 
+[submodule "oh-my-tmux-fork"]
+	path = oh-my-tmux-fork
+	url = git@github.com:yangjeep/oh-my-tmux-fork.git
