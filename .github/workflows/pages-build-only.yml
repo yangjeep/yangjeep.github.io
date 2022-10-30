@@ -1,7 +1,7 @@
 name: "Build Only Sanity"
 on:
   push:
-    branches:
+    branches-ignore:  
       - main
     paths-ignore:
       - .gitignore
