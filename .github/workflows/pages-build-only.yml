@@ -1,12 +1,5 @@
 name: "Build Only Sanity"
 on:
-  push:
-    branches-ignore:  
-      - main
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
   pull_request:
     branches:
       - main
