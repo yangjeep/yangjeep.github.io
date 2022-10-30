@@ -7,7 +7,7 @@ order: 4
 Oh Hey! 
 
 I'm yangjeep, and my friends call me JJ. 
-I live in Ottawa Canada and currently working at [Searchspring](searchspring.com) as Director of Engineering.
+I live in Ottawa Canada and currently working at Searchspring as Director of Engineering.
 
 For work I care about the efficiency and happiness of developers: development productivity, quality of life and product, velocity etc. So talk to me about:
 
