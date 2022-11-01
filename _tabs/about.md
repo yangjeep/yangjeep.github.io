@@ -18,8 +18,10 @@ For work I care about the efficiency and happiness of developers: development pr
 - Technologies in general:
     - Networking stuff (TCP/IP stack, IP network), as some of you may know I used work at Cisco for the longest time
     - Cloud Native computing: K8s, Docker, Serverless etc
+    - E-Commerce: Site Search, Merchandising, Personalization
     - Big Data (Learning!)
     - Elastic Search (Learning!)
+    - Developer productivity
 
 When I'm not working, I do lots of things for fun, talk to me about: 
 
