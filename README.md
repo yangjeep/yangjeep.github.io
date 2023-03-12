@@ -1,41 +1,31 @@
-# Welcome to my world
+# Oh Hey! 
 
-> Things worth mentioning and capturing will be kept here
+I'm Jiajian, and my friends call me JJ. 
+I live in Ottawa Canada and currently working at Searchspring as Director of Engineering.
 
-## Table of Contents
-[News I want to share](#News-I-want-to-share) <br>
-[Toys I'm playing with lately](#Toys-I'm-playing-with-lately) <br>
-[Recent Reading](#Recent-Reading) <br>
-[Useful stuff](#Useful-stuff)
+For work I care about the efficiency and happiness of developers: development productivity, quality of life and product, velocity etc. So talk to me about:
 
-## News I want to share
-**I'm hiring at Cisco Ottawa!**
-You will be working with me, in the most exciting charter in the network of the future.
-For the most part, I'm looking for developers who has
-- Pro level C programming
-- Good understanding of Operating System
-- Good on those not-so-hard algorithms and datastructure questions (I don't look for those fancy stuff!)
-- Plus if you happened to know networking a lot
+- Servant leadership
+- Non-toxic management style
+- Work-life balance
+- Career development in both technical and management track
+- Technologies in general:
+    - Networking stuff (TCP/IP stack, IP network), as some of you may know I used work at Cisco for the longest time
+    - Cloud Native computing: K8s, Docker, Serverless etc
+    - E-Commerce: Site Search, Merchandising, Personalization
+    - Big Data (Learning!)
+    - Elastic Search (Learning!)
+    - Developer productivity
 
-Or, simply, **if you are a recent grad, show me your potential, learning skills, you get a chance!**
+When I'm not working, I do lots of things for fun, talk to me about: 
 
-More detail could be found at: **[Our hiring website](http://ciscojobsottawa.ca)**
-
-## Toys I'm playing with lately
-- Airtable: just getting started... not sure how it goes yet...
-
-## Things I'd like to buy (keep)
-- DJI Mavic Mini 2
-
-
-## Recent Reading
-- About coding/engineering best practices at Google, or maybe in the future, my team.
-    - [Google Engineering Practices on code-review](https://github.com/google/eng-practices)
-    - [Medium: The best code review feedback I've ever received](https://medium.com/better-programming/the-best-code-review-feedback-i-ever-received-43313a503517)
-
-## Useful Stuff
-There are couple tools I recently crave/love.
-- [todo.txt-cli](https://github.com/todotxt/todo.txt-cli) is a handy CLI based GTD todolist, perfectly align with KISS (keep it simple stupid), worth trying.
-- [vim-plug](https://github.com/junegunn/vim-plug): an effective & efficient vim plugin manager, simply add a section in your vimrc and you will get all your plugin managed.
-
-
+- Sports:
+    - Soccer
+    - Badminton
+- Photography (gears, methodologies, works)
+- Home-Labbing:
+    - Raspberry Pi
+    - Proxmox Virtual Environment
+- Investments:
+    - Real-estate investment in Canada (or in general)
+    - Investment portfolio 
