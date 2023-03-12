@@ -6,32 +6,18 @@ order: 4
 
 Oh Hey! 
 
-I'm Jiajian, and my friends call me JJ. 
-I live in Ottawa Canada and currently working at Searchspring as Director of Engineering.
+I'm Jiajian, but you can call me JJ. 
 
-For work I care about the efficiency and happiness of developers: development productivity, quality of life and product, velocity etc. So talk to me about:
+I currently live in Ottawa, Canada, where I work as the Director of Engineering at Searchspring. 
 
-- Servant leadership
-- Non-toxic management style
-- Work-life balance
-- Career development in both technical and management track
-- Technologies in general:
-    - Networking stuff (TCP/IP stack, IP network), as some of you may know I used work at Cisco for the longest time
-    - Cloud Native computing: K8s, Docker, Serverless etc
-    - E-Commerce: Site Search, Merchandising, Personalization
-    - Big Data (Learning!)
-    - Elastic Search (Learning!)
-    - Developer productivity
+I'm passionate about ensuring that our team of developers are not only productive, but also happy and fulfilled in their work. I believe that the quality of life of our developers is just as important as the quality of our software, and I work hard to promote both.
 
-When I'm not working, I do lots of things for fun, talk to me about: 
+As a firm believer in servant leadership and work-life balance, I aim to create an environment where my team can thrive. With my knowledge of networking and backend development, I'm able to guide them towards best practices and new technologies that can help us deliver better products and services.
 
-- Sports:
-    - Soccer
-    - Badminton
-- Photography (gears, methodologies, works)
-- Home-Labbing:
-    - Raspberry Pi
-    - Proxmox Virtual Environment
-- Investments:
-    - Real-estate investment in Canada (or in general)
-    - Investment portfolio 
+When I'm not working, I love staying active and exploring my interests. Soccer, badminton, and running are some of my favorite ways to stay fit and have fun. As a foodie, I enjoy trying new restaurants and cuisines both locally and when I travel. Photography is another hobby of mine, and I love capturing beautiful moments and landscapes. Personal finance is also an area of interest for me, and I believe in smart money management and investing.
+
+At home, I have a homelab that I enjoy tinkering with. It's a great way to experiment with new technologies and keep my skills sharp. 
+
+But perhaps the most important part of my life is my three-year-old daughter Serena. She brings so much joy and love into my life, and I'm grateful for every moment I get to spend with her.
+
+Click below to connect with me via LinkedIn/Twitter/Github! 
