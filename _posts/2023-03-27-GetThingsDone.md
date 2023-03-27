@@ -1,8 +1,8 @@
 ---
 title: Navigating Quick and Dirty vs Getting Things Done Right in Startup-Style Companies
-date: 2023-03-27 00:05:00 -0500
-categories: [tech, leadership]
-tags: [startup, leadership]     # TAG names should always be lowercase
+date: 2023-03-27 00:00:00 -0500
+categories: [tech]
+tags: [leadership]     # TAG names should always be lowercase
 ---
  Originally Posted at [Medium](https://medium.com/p/f2a5d8361ff0]
 
