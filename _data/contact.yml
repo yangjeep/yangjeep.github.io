@@ -9,10 +9,11 @@
 -
   type: LinkedIn
   icon: 'fab fa-linkedin'
-#-
-#  type: email
-#  icon: 'fas fa-envelope'
-#  noblank: true            # open link in current tab
+  url: 'https://www.linkedin.com/in/yangjeep/'
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: true            # open link in current tab
 -
   type: rss
   icon: 'fas fa-rss'
