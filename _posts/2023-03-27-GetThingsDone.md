@@ -14,6 +14,8 @@ One day, I mustered up the courage to ask my CTO about these concerns. To my sur
 
 That conversation was a turning point for me. It highlighted the importance of embracing the unique strengths each team member brings to the table, regardless of their background. It also reminded me that, in a startup-style company, it’s essential to strike a balance between getting things done quickly and ensuring quality. The CTO’s words encouraged me to contribute to the team by leveraging my experience without compromising the company’s nimble approach to development.
 
+![getThingsDone](/assets/blog20230327_getThingsDone)
+
 # Why
 In the fast-paced world of technology, startup-style companies often face the challenge of balancing the need for rapid development with the desire for high-quality results. With constant pressure to deliver new features and stay ahead of the competition, it’s easy to succumb to the temptation of getting things done “quick and dirty.” But at what cost? In this article, we’ll explore the pros and cons of quick and dirty development versus getting things done right, and discuss whether finding the balance is feasible or if making different calls at different times is the key.
 
