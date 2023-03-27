@@ -4,7 +4,7 @@ date: 2023-03-27 00:05:00 -0500
 categories: [tech, leadership, management, startup]
 tags: [tech, startup, leadership]     # TAG names should always be lowercase
 ---
-> Originally Posted at [Medium](https://medium.com/p/f2a5d8361ff0]
+ Originally Posted at [Medium](https://medium.com/p/f2a5d8361ff0]
 
 # TL;DR
 In startup-style companies, finding the perfect balance between quick and dirty development and getting things done right may be a myth. Instead, making the right call based on each project’s unique circumstances is essential. By considering factors like urgency, complexity, customer impact, and resource availability, you can make informed decisions that suit each situation. Embracing flexibility, experimentation, clear communication, and reflection will empower teams to adapt and excel in the ever-changing tech landscape.
