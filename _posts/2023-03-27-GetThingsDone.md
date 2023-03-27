@@ -1,5 +1,5 @@
 ---
-title: Striking the Balance or Making the Call: Navigating Quick and Dirty vs. Getting Things Done Right in Startup-Style Companies
+title: "Striking the Balance or Making the Call: Navigating Quick and Dirty vs. Getting Things Done Right in Startup-Style Companies"
 date: 2023-03-27 00:05:00 -0500
 categories: [tech, leadership, management, startup]
 tags: [tech, startup, leadership]     # TAG names should always be lowercase
