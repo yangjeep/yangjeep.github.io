@@ -18,6 +18,6 @@ When I'm not working, I love staying active and exploring my interests. Soccer, 
 
 At home, I have a homelab that I enjoy tinkering with. It's a great way to experiment with new technologies and keep my skills sharp. 
 
-But perhaps the most important part of my life is my three-year-old daughter Serena. She brings so much joy and love into my life, and I'm grateful for every moment I get to spend with her.
+But perhaps the most important part of my life is my almost-5-years-old daughter Serena. She brings so much joy and love into my life, and I'm grateful for every moment I get to spend with her.
 
 Click below to connect with me via LinkedIn/Twitter/Github! 
