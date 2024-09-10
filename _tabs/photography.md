@@ -4,10 +4,6 @@ icon: fas fa-camera
 order: 2
 ---
 
-# Photography Works
-
-Welcome to my photography showcase! Here are some of my favorite works.
-
 ## Ottawa City Walk 2024
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
     <img src="/assets/photography/ottawacitywalk2024/r001-005.jpg" alt="Ottawa City Walk 2024 - Image 5" style="width: 100%; height: auto;">
