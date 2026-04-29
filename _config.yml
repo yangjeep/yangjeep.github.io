@@ -57,7 +57,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-XXXXXXXXXX    # Replace with your real GA4 Measurement ID (see docs/analytics.md)
+  id: G-7Z26FPD1KF    # GA4 Measurement ID (see docs/analytics.md)
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine

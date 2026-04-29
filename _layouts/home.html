@@ -259,7 +259,7 @@ layout: default
 {% endif %}
 
 <!-- ── Outbound click tracking ───────────────────────────── -->
-{% if jekyll.environment == 'production' and site.google_analytics.id != '' and site.google_analytics.id != 'G-XXXXXXXXXX' %}
+{% if jekyll.environment == 'production' and site.google_analytics.id != '' %}
 <script>
   document.querySelectorAll('[data-outbound]').forEach(function(el) {
     el.addEventListener('click', function() {
