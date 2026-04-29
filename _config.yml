@@ -21,7 +21,7 @@ timezone:
 
 title: Jiajian Yang                      # the main title
 
-tagline: Engineering leader, infrastructure builder, and photographer.   # it will display as the sub-title
+tagline: Engineering leader, infrastructure builder, and product-minded technologist.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Engineering leader building platform and backend systems, AI-native infrastructure, and products.
@@ -57,7 +57,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-7Z26FPD1KF    # GA4 Measurement ID (see docs/analytics.md)
+  id: G-7Z26FPD1KF    # GA4 Measurement ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
