@@ -19,12 +19,14 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: yangjeep                          # the main title
+title: Jiajian Yang                      # the main title
 
-tagline: JJ's new blog at github!   # it will display as the sub-title
+tagline: Engineering leader, infrastructure builder, and photographer.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Finally found a better place for my tech stuff!
+  Engineering leader building platform and backend systems, AI-native infrastructure, and products.
+  Based in Ottawa, Canada. Writing about engineering leadership, distributed systems, AI workflows,
+  homelabs, and product building.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yangjeep.io'
@@ -55,7 +57,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-XXXXXXXXXX    # Replace with your real GA4 Measurement ID (see docs/analytics.md)
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
