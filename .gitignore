@@ -13,6 +13,13 @@
 _site
 vendor
 
+# jekyll cache
+.jekyll-cache
+.sass-cache
+
+# OS
+.DS_Store
+
 # rubygem
 *.gem
 
