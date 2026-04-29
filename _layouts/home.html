@@ -1,0 +1,274 @@
+---
+layout: default
+---
+
+<style>
+  /* ── JJ landing page ─────────────────────────────────────── */
+  .jj-hero {
+    padding: 3rem 0 1.5rem;
+    text-align: center;
+  }
+
+  .jj-hero-name {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    color: var(--heading-color, inherit);
+    letter-spacing: -0.5px;
+  }
+
+  .jj-hero-subtitle {
+    font-size: 1.15rem;
+    color: var(--label-color, #6c757d);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  .jj-hero-bio {
+    max-width: 620px;
+    margin: 0 auto 2rem;
+    line-height: 1.75;
+    font-size: 1rem;
+  }
+
+  .jj-hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .jj-btn {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1.5px solid var(--link-color, #2a408e);
+    color: var(--link-color, #2a408e);
+    transition: background 0.18s, color 0.18s;
+  }
+
+  .jj-btn:hover {
+    background: var(--link-color, #2a408e);
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  .jj-btn.primary {
+    background: var(--link-color, #2a408e);
+    color: #fff !important;
+  }
+
+  .jj-btn.primary:hover {
+    opacity: 0.85;
+  }
+
+  /* ── Section headings ────────────────────────────────────── */
+  .jj-section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--link-color, #2a408e);
+    color: var(--heading-color, inherit);
+  }
+
+  /* ── Project cards ───────────────────────────────────────── */
+  .jj-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .jj-card {
+    border: 1px solid var(--main-border-color, #e0e0e0);
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    text-decoration: none !important;
+    display: block;
+    transition: border-color 0.18s, box-shadow 0.18s;
+  }
+
+  .jj-card:hover {
+    border-color: var(--link-color, #2a408e);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+  }
+
+  .jj-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.35rem;
+    color: var(--heading-color, inherit);
+  }
+
+  .jj-card-desc {
+    font-size: 0.88rem;
+    color: var(--label-color, #6c757d);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* ── Topic tags ──────────────────────────────────────────── */
+  .jj-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .jj-topic-tag {
+    background: var(--main-border-color, #f0f0f0);
+    color: var(--label-color, #6c757d);
+    padding: 0.28rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.83rem;
+  }
+
+  /* ── Recent posts list ───────────────────────────────────── */
+  .jj-post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+  }
+
+  .jj-post-list li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--main-border-color, #e8e8e8);
+    flex-wrap: wrap;
+  }
+
+  .jj-post-list li:last-child {
+    border-bottom: none;
+  }
+
+  .jj-post-list a {
+    font-weight: 500;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .jj-post-date {
+    font-size: 0.83rem;
+    color: var(--label-color, #6c757d);
+    white-space: nowrap;
+  }
+
+  .jj-view-all {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--link-color, #2a408e);
+  }
+
+  @media (max-width: 600px) {
+    .jj-hero-name { font-size: 2rem; }
+    .jj-cards { grid-template-columns: 1fr; }
+  }
+</style>
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="jj-hero">
+  <h1 class="jj-hero-name">Jiajian Yang</h1>
+  <p class="jj-hero-subtitle">Engineering leader, infrastructure builder, and photographer.</p>
+  <p class="jj-hero-bio">
+    I build platform and backend systems, lead engineering teams, and ship AI-native infrastructure.
+    Based in Ottawa, Canada. Currently building
+    <a href="https://github.com/yangjeep/leaselab" target="_blank" rel="noopener noreferrer">LeaseLab</a>,
+    an event-driven property management platform. I write about engineering leadership,
+    distributed systems, AI workflows, homelabs, and product building.
+  </p>
+  <div class="jj-hero-links">
+    <a class="jj-btn primary" href="/archives">Blog</a>
+    <a class="jj-btn" href="https://github.com/yangjeep/leaselab"
+       target="_blank" rel="noopener noreferrer"
+       data-outbound="leaselab">LeaseLab</a>
+    <a class="jj-btn" href="https://photo.yangjeep.io"
+       target="_blank" rel="noopener noreferrer"
+       data-outbound="photography">Photography</a>
+    <a class="jj-btn" href="https://github.com/yangjeep"
+       target="_blank" rel="noopener noreferrer"
+       data-outbound="github">GitHub</a>
+    <a class="jj-btn" href="https://www.linkedin.com/in/yangjeep"
+       target="_blank" rel="noopener noreferrer"
+       data-outbound="linkedin">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ── Featured Projects ─────────────────────────────────── -->
+<h2 class="jj-section-title">Featured Projects</h2>
+<div class="jj-cards">
+  <a class="jj-card" href="https://github.com/yangjeep/leaselab"
+     target="_blank" rel="noopener noreferrer"
+     data-outbound="leaselab">
+    <p class="jj-card-title">LeaseLab</p>
+    <p class="jj-card-desc">
+      Event-driven, workflow-centric property management platform.
+      Modern async-first stack built for real operational complexity.
+    </p>
+  </a>
+  <a class="jj-card" href="/archives">
+    <p class="jj-card-title">Technical Blog</p>
+    <p class="jj-card-desc">
+      Engineering leadership, infrastructure, AI-native workflows,
+      homelabs, and product building — captured as I go.
+    </p>
+  </a>
+  <a class="jj-card" href="https://photo.yangjeep.io"
+     target="_blank" rel="noopener noreferrer"
+     data-outbound="photography">
+    <p class="jj-card-title">Photography Portfolio</p>
+    <p class="jj-card-desc">
+      Travel, architecture, museums/interiors, and cityscape work.
+      Hosted on Adobe Portfolio at photo.yangjeep.io.
+    </p>
+  </a>
+</div>
+
+<!-- ── What I write about ────────────────────────────────── -->
+<h2 class="jj-section-title">What I write about</h2>
+<div class="jj-topics">
+  <span class="jj-topic-tag">engineering leadership</span>
+  <span class="jj-topic-tag">backend &amp; platform architecture</span>
+  <span class="jj-topic-tag">AI-native workflows</span>
+  <span class="jj-topic-tag">homelab &amp; infrastructure</span>
+  <span class="jj-topic-tag">product building</span>
+  <span class="jj-topic-tag">distributed systems</span>
+</div>
+
+<!-- ── Recent Posts ──────────────────────────────────────── -->
+{% assign recent_posts = site.posts | slice: 0, 5 %}
+{% if recent_posts.size > 0 %}
+<h2 class="jj-section-title">Recent Posts</h2>
+<ul class="jj-post-list">
+  {% for post in recent_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="jj-post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+  </li>
+  {% endfor %}
+</ul>
+<a class="jj-view-all" href="/archives">View all posts &rarr;</a>
+{% endif %}
+
+<!-- ── Outbound click tracking ───────────────────────────── -->
+{% if jekyll.environment == 'production' and site.google_analytics.id != '' %}
+<script>
+  document.querySelectorAll('[data-outbound]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      gtag('event', 'click', {
+        event_category: 'outbound',
+        event_label: el.getAttribute('data-outbound'),
+        transport_type: 'beacon'
+      });
+    });
+  });
+</script>
+{% endif %}
