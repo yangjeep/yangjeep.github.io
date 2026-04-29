@@ -8,7 +8,7 @@ Hi, I'm **Jiajian Yang** — you can call me JJ.
 
 I'm an engineering leader based in **Ottawa, Canada**. My work sits at the intersection of platform engineering, backend systems, data infrastructure, and AI-native product development. I care about building teams that ship reliably and systems that hold up under real load.
 
-Currently I'm building [**LeaseLab**](https://github.com/yangjeep/leaselab) — an event-driven, workflow-centric property management platform designed around operational complexity rather than around forms.
+Currently I'm building [**LeaseLab**](https://leaselab.io) — an event-driven, workflow-centric property management platform designed around operational complexity rather than around forms.
 
 ### What I work on
 

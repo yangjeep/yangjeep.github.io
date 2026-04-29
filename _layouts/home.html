@@ -5,28 +5,28 @@ layout: default
 <style>
   /* ── JJ landing page ─────────────────────────────────────── */
   .jj-hero {
-    padding: 3rem 0 1.5rem;
+    padding: 1.5rem 0 1.5rem;
     text-align: center;
   }
 
   .jj-hero-name {
     font-size: 2.6rem;
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.35rem;
     color: var(--heading-color, inherit);
     letter-spacing: -0.5px;
   }
 
   .jj-hero-subtitle {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color: var(--label-color, #6c757d);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
     font-weight: 400;
   }
 
   .jj-hero-bio {
-    max-width: 620px;
-    margin: 0 auto 2rem;
+    max-width: 640px;
+    margin: 0 auto 1.75rem;
     line-height: 1.75;
     font-size: 1rem;
   }
@@ -35,13 +35,13 @@ layout: default
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.6rem;
+    gap: 0.55rem;
     margin-bottom: 0.5rem;
   }
 
   .jj-btn {
     display: inline-block;
-    padding: 0.45rem 1.1rem;
+    padding: 0.45rem 1.15rem;
     border-radius: 6px;
     font-size: 0.9rem;
     font-weight: 500;
@@ -68,9 +68,9 @@ layout: default
 
   /* ── Section headings ────────────────────────────────────── */
   .jj-section-title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    margin: 2.5rem 0 1rem;
+    margin: 2.25rem 0 1rem;
     padding-bottom: 0.4rem;
     border-bottom: 2px solid var(--link-color, #2a408e);
     color: var(--heading-color, inherit);
@@ -91,11 +91,13 @@ layout: default
     text-decoration: none !important;
     display: block;
     transition: border-color 0.18s, box-shadow 0.18s;
+    min-height: 90px;
   }
 
   .jj-card:hover {
     border-color: var(--link-color, #2a408e);
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+    text-decoration: none !important;
   }
 
   .jj-card-title {
@@ -171,28 +173,28 @@ layout: default
   @media (max-width: 600px) {
     .jj-hero-name { font-size: 2rem; }
     .jj-cards { grid-template-columns: 1fr; }
+    .jj-hero-links { gap: 0.45rem; }
   }
 </style>
 
 <!-- ── Hero ─────────────────────────────────────────────── -->
 <section class="jj-hero">
   <h1 class="jj-hero-name">Jiajian Yang</h1>
-  <p class="jj-hero-subtitle">Engineering leader, infrastructure builder, and photographer.</p>
+  <p class="jj-hero-subtitle">Engineering leader, infrastructure builder, and product-minded technologist.</p>
   <p class="jj-hero-bio">
-    I build platform and backend systems, lead engineering teams, and ship AI-native infrastructure.
-    Based in Ottawa, Canada. Currently building
-    <a href="https://github.com/yangjeep/leaselab" target="_blank" rel="noopener noreferrer">LeaseLab</a>,
-    an event-driven property management platform. I write about engineering leadership,
-    distributed systems, AI workflows, homelabs, and product building.
+    I build platform and backend systems, lead engineering teams, and explore AI-native infrastructure.
+    I'm based in Ottawa, Canada, and currently building
+    <a href="https://leaselab.io" target="_blank" rel="noopener noreferrer">LeaseLab</a>,
+    an event-driven property management platform.
   </p>
   <div class="jj-hero-links">
-    <a class="jj-btn primary" href="/archives">Blog</a>
-    <a class="jj-btn" href="https://github.com/yangjeep/leaselab"
+    <a class="jj-btn primary" href="https://leaselab.io"
        target="_blank" rel="noopener noreferrer"
        data-outbound="leaselab">LeaseLab</a>
+    <a class="jj-btn" href="/archives">Blog</a>
     <a class="jj-btn" href="https://photo.yangjeep.io"
        target="_blank" rel="noopener noreferrer"
-       data-outbound="photography">Photography</a>
+       data-outbound="photography">Photography Portfolio</a>
     <a class="jj-btn" href="https://github.com/yangjeep"
        target="_blank" rel="noopener noreferrer"
        data-outbound="github">GitHub</a>
@@ -205,7 +207,7 @@ layout: default
 <!-- ── Featured Projects ─────────────────────────────────── -->
 <h2 class="jj-section-title">Featured Projects</h2>
 <div class="jj-cards">
-  <a class="jj-card" href="https://github.com/yangjeep/leaselab"
+  <a class="jj-card" href="https://leaselab.io"
      target="_blank" rel="noopener noreferrer"
      data-outbound="leaselab">
     <p class="jj-card-title">LeaseLab</p>
