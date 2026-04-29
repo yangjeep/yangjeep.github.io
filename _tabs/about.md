@@ -14,7 +14,7 @@ I'm passionate about ensuring that our team of developers are not only productiv
 
 As a firm believer in servant leadership and work-life balance, I aim to create an environment where my team can thrive. With my knowledge of networking and backend development, I'm able to guide them towards best practices and new technologies that can help us deliver better products and services.
 
-When I'm not working, I love staying active and exploring my interests. Soccer, badminton, and running are some of my favorite ways to stay fit and have fun. As a foodie, I enjoy trying new restaurants and cuisines both locally and when I travel. Photography is another hobby of mine, and I love capturing beautiful moments and landscapes. Personal finance is also an area of interest for me, and I believe in smart money management and investing.
+When I'm not working, I love staying active and exploring my interests. Soccer, badminton, and running are some of my favorite ways to stay fit and have fun. As a foodie, I enjoy trying new restaurants and cuisines both locally and when I travel. Photography is another hobby of mine, and I love capturing beautiful moments and landscapes. You can see more of my photography at [my portfolio](https://photo.yangjeep.io). Personal finance is also an area of interest for me, and I believe in smart money management and investing.
 
 At home, I have a homelab that I enjoy tinkering with. It's a great way to experiment with new technologies and keep my skills sharp. 
 
