@@ -19,14 +19,13 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jiajian Yang                      # the main title
+title: Yangjeep Engineering Notes                      # the main title
 
-tagline: Engineering leader, infrastructure builder, and product-minded technologist.   # it will display as the sub-title
+tagline: Technical notes on infrastructure, systems, AI workflows, and engineering leadership.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Engineering leader building platform and backend systems, AI-native infrastructure, and products.
-  Based in Ottawa, Canada. Writing about engineering leadership, distributed systems, AI workflows,
-  homelabs, and product building.
+  Technical writing by Jiajian Yang on engineering leadership, SaaS platforms, backend and data
+  systems, AI-assisted engineering workflows, homelab infrastructure, and product building.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yangjeep.io'
@@ -41,13 +40,12 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Jiajian Yang
-  email: jj@yangjeep.io             # change to your email address
+  email: jj@yangjeep.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/yangjeep      # change to your twitter homepage
+    - https://yangjeep.com              # main personal landing page
+    - https://jiajianyang.com           # formal resume / profile
     - https://github.com/yangjeep       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     - https://www.linkedin.com/in/yangjeep
     - https://photo.yangjeep.io
 
