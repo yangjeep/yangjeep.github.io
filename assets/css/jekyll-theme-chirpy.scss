@@ -1,0 +1,37 @@
+---
+---
+
+@import 'main';
+
+/* append your custom style below */
+
+/* ── Engineering-notebook visual language ─────────────────────
+   Modest, sitewide touches: a faint grid texture and a monospace
+   accent for identity/labels — carried lightly across the theme
+   rather than confined to the homepage. */
+
+:root {
+  --jj-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+/* faint graph-paper texture behind the content column */
+#main-wrapper {
+  background-image:
+    linear-gradient(var(--main-border-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--main-border-color) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: -1px -1px;
+}
+
+.site-subtitle {
+  font-family: var(--jj-mono);
+  font-size: 0.72rem !important;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+/* monospace, muted timestamps read like log/commit metadata */
+.post-meta,
+time {
+  font-family: var(--jj-mono);
+}

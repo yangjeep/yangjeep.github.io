@@ -5,7 +5,7 @@ layout: default
 <style>
   /* ── JJ landing page ─────────────────────────────────────── */
   .jj-hero {
-    padding: 1.5rem 0 1.5rem;
+    padding: 1.5rem 0 1.25rem;
     text-align: center;
   }
 
@@ -18,17 +18,12 @@ layout: default
   }
 
   .jj-hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     color: var(--label-color, #6c757d);
-    margin-bottom: 1.25rem;
+    margin: 0 auto 1.5rem;
+    max-width: 560px;
     font-weight: 400;
-  }
-
-  .jj-hero-bio {
-    max-width: 640px;
-    margin: 0 auto 1.75rem;
-    line-height: 1.75;
-    font-size: 1rem;
+    line-height: 1.6;
   }
 
   .jj-hero-links {
@@ -72,7 +67,89 @@ layout: default
     font-weight: 600;
     margin: 2.25rem 0 1rem;
     padding-bottom: 0.4rem;
-    border-bottom: 2px solid var(--link-color, #2a408e);
+    border-bottom: 1px solid var(--main-border-color, #e8e8e8);
+    color: var(--heading-color, inherit);
+  }
+
+  .jj-section-note {
+    font-family: var(--jj-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+    font-size: 0.78rem;
+    color: var(--label-color, #6c757d);
+    margin: -0.6rem 0 1rem;
+  }
+
+  /* ── Signature motif: overlapping domains, not a ladder ──── */
+  .jj-motif {
+    max-width: 460px;
+    margin: 0.75rem auto 0.25rem;
+  }
+
+  .jj-motif svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .jj-motif line {
+    stroke: var(--link-color, #0056b2);
+    stroke-width: 1;
+    opacity: 0.22;
+  }
+
+  .jj-motif line.jj-motif-edge-cross {
+    opacity: 0.55;
+  }
+
+  .jj-motif circle {
+    fill: var(--main-bg, #fff);
+    stroke: var(--link-color, #0056b2);
+    stroke-width: 1.5;
+  }
+
+  .jj-motif text {
+    font-family: var(--jj-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+    font-size: 8.5px;
+    letter-spacing: 0.06em;
+    fill: var(--label-color, #6c757d);
+  }
+
+  .jj-motif-caption {
+    text-align: center;
+    margin: 0.5rem 0 0;
+  }
+
+  /* ── Now / current threads: notebook list, not cards ─────── */
+  .jj-now-list {
+    list-style: none;
+    margin: 0 0 0.5rem;
+    padding: 0;
+  }
+
+  .jj-now-list li {
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--main-border-color, #e8e8e8);
+  }
+
+  .jj-now-list li:last-child {
+    border-bottom: none;
+  }
+
+  .jj-now-marker {
+    font-family: var(--jj-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+    color: var(--link-color, #0056b2);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    width: 1rem;
+  }
+
+  .jj-now-body {
+    line-height: 1.55;
+  }
+
+  .jj-now-body strong {
     color: var(--heading-color, inherit);
   }
 
@@ -96,7 +173,6 @@ layout: default
 
   .jj-card:hover {
     border-color: var(--link-color, #2a408e);
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
     text-decoration: none !important;
   }
 
@@ -112,22 +188,6 @@ layout: default
     color: var(--label-color, #6c757d);
     margin: 0;
     line-height: 1.5;
-  }
-
-  /* ── Topic tags ──────────────────────────────────────────── */
-  .jj-topics {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .jj-topic-tag {
-    background: var(--main-border-color, #f0f0f0);
-    color: var(--label-color, #6c757d);
-    padding: 0.28rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.83rem;
   }
 
   /* ── Recent posts list ───────────────────────────────────── */
@@ -180,21 +240,35 @@ layout: default
 <!-- ── Hero ─────────────────────────────────────────────── -->
 <section class="jj-hero">
   <h1 class="jj-hero-name">Yangjeep Engineering Notes</h1>
-  <p class="jj-hero-subtitle">Technical notes on infrastructure, systems, AI-assisted engineering workflows, and engineering leadership.</p>
-  <p class="jj-hero-bio">
-    This is my technical writing space — infrastructure, systems, AI-assisted engineering
-    workflows, SaaS operations, homelab work, and engineering leadership. For a concise
-    personal profile, visit <a href="https://yangjeep.com" target="_blank" rel="noopener noreferrer">yangjeep.com</a>.
-    For my formal resume, visit <a href="https://jiajianyang.com" target="_blank" rel="noopener noreferrer">jiajianyang.com</a>.
+  <p class="jj-hero-subtitle">
+    Linux and carrier-grade infrastructure roots — now stretched across customers, AI,
+    and the business problems that don't respect org charts.
   </p>
+
+  <!-- ── Signature motif: four domains in a loop, plus one direct
+       systems↔business link — the unconventional jump ────────── -->
+  <div class="jj-motif" role="img" aria-label="Diagram: systems, platforms, business, and customers connected in a loop, with one direct line from systems to business — an interconnected graph, not a career ladder">
+    <svg viewBox="0 0 460 160" xmlns="http://www.w3.org/2000/svg">
+      <line x1="70" y1="110" x2="185" y2="35" />
+      <line x1="185" y1="35" x2="405" y2="70" />
+      <line x1="405" y1="70" x2="300" y2="130" />
+      <line x1="300" y1="130" x2="70" y2="110" />
+      <line class="jj-motif-edge-cross" x1="70" y1="110" x2="405" y2="70" />
+      <circle cx="70" cy="110" r="5" />
+      <circle cx="185" cy="35" r="5" />
+      <circle cx="405" cy="70" r="5" />
+      <circle cx="300" cy="130" r="5" />
+      <text x="70" y="132" text-anchor="middle">SYSTEMS</text>
+      <text x="185" y="20" text-anchor="middle">PLATFORMS</text>
+      <text x="405" y="52" text-anchor="middle">BUSINESS</text>
+      <text x="300" y="150" text-anchor="middle">CUSTOMERS</text>
+    </svg>
+  </div>
+  <p class="jj-motif-caption jj-section-note">— same graph, not a ladder</p>
+
   <div class="jj-hero-links">
     <a class="jj-btn primary" href="/archives">Read the notes</a>
-    <a class="jj-btn" href="https://yangjeep.com"
-       target="_blank" rel="noopener noreferrer"
-       data-outbound="main-site">Main site</a>
-    <a class="jj-btn" href="https://jiajianyang.com"
-       target="_blank" rel="noopener noreferrer"
-       data-outbound="formal-profile">Formal profile</a>
+    <a class="jj-btn" href="/about">About</a>
     <a class="jj-btn" href="https://github.com/yangjeep"
        target="_blank" rel="noopener noreferrer"
        data-outbound="github">GitHub</a>
@@ -203,6 +277,58 @@ layout: default
        data-outbound="linkedin">LinkedIn</a>
   </div>
 </section>
+
+<!-- ── Now ───────────────────────────────────────────────── -->
+<h2 class="jj-section-title">Now</h2>
+<p class="jj-section-note"># what I'm actually building and running, updated as it changes</p>
+<ul class="jj-now-list">
+  <li>
+    <span class="jj-now-marker">▸</span>
+    <span class="jj-now-body">
+      <strong>LeaseLab</strong> — property management, built event-driven because I got curious
+      whether the domain actually needed it. Still finding out.
+      <a href="https://leaselab.io" target="_blank" rel="noopener noreferrer" data-outbound="leaselab">leaselab.io</a>
+    </span>
+  </li>
+  <li>
+    <span class="jj-now-marker">▸</span>
+    <span class="jj-now-body">
+      <strong>Agentic development workflows</strong> — using Claude Code and similar tools for
+      real engineering work, not demos, and writing up what actually holds up.
+    </span>
+  </li>
+  <li>
+    <span class="jj-now-marker">▸</span>
+    <span class="jj-now-body">
+      <strong>Homelab &amp; observability</strong> — infrastructure experiments that mirror the
+      platform problems I deal with at work, at a scale I can break safely.
+    </span>
+  </li>
+  <li>
+    <span class="jj-now-marker">▸</span>
+    <span class="jj-now-body">
+      <strong>AI-assisted engineering systems</strong> — where agentic AI actually earns a place
+      in a support/engineering org, and where it doesn't yet.
+    </span>
+  </li>
+</ul>
+
+<!-- ── Recent writing ────────────────────────────────────── -->
+{% assign recent_posts = site.posts | slice: 0, 5 %}
+<h2 class="jj-section-title">Recent writing</h2>
+{% if recent_posts.size > 0 %}
+<ul class="jj-post-list">
+  {% for post in recent_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="jj-post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+  </li>
+  {% endfor %}
+</ul>
+<a class="jj-view-all" href="/archives">View all posts &rarr;</a>
+{% else %}
+<p class="jj-section-note">nothing published yet — the notebook starts here.</p>
+{% endif %}
 
 <!-- ── Where to go ───────────────────────────────────────── -->
 <h2 class="jj-section-title">Where to go</h2>
@@ -221,7 +347,7 @@ layout: default
      data-outbound="formal-profile">
     <p class="jj-card-title">Formal profile → jiajianyang.com</p>
     <p class="jj-card-desc">
-      My resume and professional profile in full — background, roles,
+      My résumé and professional profile in full — background, roles,
       and experience.
     </p>
   </a>
@@ -235,32 +361,6 @@ layout: default
     </p>
   </a>
 </div>
-
-<!-- ── What I write about ────────────────────────────────── -->
-<h2 class="jj-section-title">What I write about</h2>
-<div class="jj-topics">
-  <span class="jj-topic-tag">engineering leadership</span>
-  <span class="jj-topic-tag">backend &amp; platform architecture</span>
-  <span class="jj-topic-tag">AI-native workflows</span>
-  <span class="jj-topic-tag">homelab &amp; infrastructure</span>
-  <span class="jj-topic-tag">product building</span>
-  <span class="jj-topic-tag">distributed systems</span>
-</div>
-
-<!-- ── Recent Posts ──────────────────────────────────────── -->
-{% assign recent_posts = site.posts | slice: 0, 5 %}
-{% if recent_posts.size > 0 %}
-<h2 class="jj-section-title">Recent Posts</h2>
-<ul class="jj-post-list">
-  {% for post in recent_posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="jj-post-date">{{ post.date | date: '%b %d, %Y' }}</span>
-  </li>
-  {% endfor %}
-</ul>
-<a class="jj-view-all" href="/archives">View all posts &rarr;</a>
-{% endif %}
 
 <!-- ── Outbound click tracking ───────────────────────────── -->
 {% if jekyll.environment == 'production' and site.google_analytics.id != '' %}
