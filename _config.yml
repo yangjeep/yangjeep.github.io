@@ -21,13 +21,12 @@ timezone:
 
 title: Yangjeep Engineering Notes                      # the main title
 
-tagline: Field notes from an unconventional technical leader.   # it will display as the sub-title
+tagline: Field notes on systems, platforms, infrastructure, and engineering leadership.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Technical field notes by Jiajian Yang — infrastructure, distributed systems, AI and agentic
-  workflows, customer engineering, developer platforms, homelab, and engineering organizations.
-  The technical notebook of an unconventional technical leader; for a formal profile see
-  jiajianyang.com.
+  Technical field notes by Jiajian Yang on systems and platform architecture, infrastructure
+  and reliability, cloud economics, developer tooling, data infrastructure, AI-assisted
+  engineering workflows, homelab systems, and engineering leadership.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yangjeep.io'
@@ -45,9 +44,8 @@ social:
   email: jj@yangjeep.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://yangjeep.com              # main personal landing page
-    - https://jiajianyang.com           # formal resume / profile
-    - https://github.com/yangjeep       # change to your github homepage
+    - https://yangjeep.com              # canonical personal/professional hub
+    - https://github.com/yangjeep       # GitHub profile
     - https://www.linkedin.com/in/yangjeep
     - https://photo.yangjeep.io
 
@@ -61,7 +59,7 @@ google_analytics:
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+    cache_path:       # local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -90,22 +88,19 @@ avatar: '/assets/avatar.png'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active:         # The global switch for posts comments, e.g. 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
     issue_term:   # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
   giscus:
     repo:              # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
     mapping:           # optional, default to 'pathname'
-    input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
@@ -113,8 +108,7 @@ comments:
 assets:
   self_host:
     enabled:      # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
+    # specify the environment, empty means both
     env:          # [development|production]
 
 pwa:
@@ -128,7 +122,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
-    # default_lang: console
+    default_lang: console
     span:
       line_numbers: false
     block:
@@ -147,7 +141,7 @@ defaults:
     values:
       layout: post
       comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
+      toc: true         # Display ToC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
@@ -163,10 +157,6 @@ defaults:
       permalink: /:title/
   - scope:
       path: assets/img/favicons
-    values:
-      swcache: true
-  - scope:
-      path: assets/js/dist
     values:
       swcache: true
 
