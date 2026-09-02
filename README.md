@@ -2,13 +2,13 @@
 
 Source for [**yangjeep.io**](https://yangjeep.io) — my technical blog / engineering notes site.
 
-Technical writing on engineering leadership, SaaS platforms, backend and data systems,
-AI-assisted engineering workflows, homelab infrastructure, and product building.
+Technical writing on systems and platform architecture, infrastructure and reliability,
+cloud economics, developer tooling, data infrastructure, AI-assisted engineering workflows,
+homelab systems, and engineering leadership.
 
 ## Related sites
 
-- **Main personal landing page** — [yangjeep.com](https://yangjeep.com)
-- **Formal resume / profile** — [jiajianyang.com](https://jiajianyang.com)
+- **Canonical personal/professional hub** — [yangjeep.com](https://yangjeep.com)
 - **Photography portfolio** — [photo.yangjeep.io](https://photo.yangjeep.io)
 
 ## Stack

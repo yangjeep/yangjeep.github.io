@@ -21,13 +21,12 @@ timezone:
 
 title: Yangjeep Engineering Notes                      # the main title
 
-tagline: Field notes from an unconventional technical leader.   # it will display as the sub-title
+tagline: Field notes on systems, platforms, infrastructure, and engineering leadership.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Technical field notes by Jiajian Yang — infrastructure, distributed systems, AI and agentic
-  workflows, customer engineering, developer platforms, homelab, and engineering organizations.
-  The technical notebook of an unconventional technical leader; for a formal profile see
-  jiajianyang.com.
+  Technical field notes by Jiajian Yang on systems and platform architecture, infrastructure
+  and reliability, cloud economics, developer tooling, data infrastructure, AI-assisted
+  engineering workflows, homelab systems, and engineering leadership.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yangjeep.io'
@@ -45,8 +44,7 @@ social:
   email: jj@yangjeep.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://yangjeep.com              # main personal landing page
-    - https://jiajianyang.com           # formal resume / profile
+    - https://yangjeep.com              # canonical personal/professional hub
     - https://github.com/yangjeep       # change to your github homepage
     - https://www.linkedin.com/in/yangjeep
     - https://photo.yangjeep.io
