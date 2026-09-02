@@ -45,7 +45,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://yangjeep.com              # canonical personal/professional hub
-    - https://github.com/yangjeep       # GitHub profile
+    - https://github.com/yangjeep       # change to your github homepage
     - https://www.linkedin.com/in/yangjeep
     - https://photo.yangjeep.io
 
@@ -58,8 +58,8 @@ google_analytics:
   id: G-7Z26FPD1KF    # GA4 Measurement ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint:   # fill in to your Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # local PV cache data, friendly to visitors from GFW region
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -88,7 +88,7 @@ avatar: '/assets/avatar.png'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g. 'disqus'.  Keep it empty means disable
+  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -103,6 +103,7 @@ comments:
     category:
     category_id:
     mapping:           # optional, default to 'pathname'
+    input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
@@ -110,7 +111,8 @@ comments:
 assets:
   self_host:
     enabled:      # boolean, keep empty means false
-    # specify the environment, empty means both
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
 
 pwa:
@@ -143,7 +145,7 @@ defaults:
     values:
       layout: post
       comments: true    # Enable comments in posts.
-      toc: true         # Display ToC column in posts.
+      toc: true         # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
@@ -159,6 +161,10 @@ defaults:
       permalink: /:title/
   - scope:
       path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
     values:
       swcache: true
 
